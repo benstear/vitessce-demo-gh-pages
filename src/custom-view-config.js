@@ -1,4 +1,4 @@
-{'version': '1.0.15',
+export const myViewConfig = {'version': '1.0.15',
  'name': 'Visium Tonsil',
  'description': '',
  'datasets': [{'uid': 'A',
