@@ -9,7 +9,7 @@ export const myViewConfig = {
       files: [
         {
           fileType: "anndata.zarr",
-          url: "https://storage.googleapis.com/vitessce-demo-data/habib-2017/habib17.processed.h5ad.zarr",
+          url: "nonexistent_zarr.zarr",
           coordinationValues: {
             embeddingType: "UMAP",
           },
