@@ -4,7 +4,7 @@
  'datasets': [{'uid': 'A',
    'name': 'Visium Tonsil Data',
    'files': [{'fileType': 'anndata.zarr',
-     'url': 'http://localhost:8003/A/0/c91a0c78-da90-4426-a34b-8454c47f2b66.adata.zarr',
+     'url':'https://github.com/benstear/vitessce-demo-gh-pages/tree/main/Visum_Tonsil.adata.zarr',
      'options': {'obsEmbedding': [{'path': 'obsm/X_umap',
         'dims': [0, 1],
         'embeddingType': 'UMAP'},
