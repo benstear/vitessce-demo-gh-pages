@@ -1,0 +1,8 @@
+{
+    "_index": "barcode",
+    "column-order": [
+        "Kmeans6"
+    ],
+    "encoding-type": "dataframe",
+    "encoding-version": "0.2.0"
+}
