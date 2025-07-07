@@ -28,6 +28,13 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+      - name: show files
+        run: pwd; ls; echo '---------'; printenv
+
+      #- name: Upload build artifact 2
+      #  uses: actions/upload-pages-artifact@v3
+      #  with:
+      #    path: dist
   deploy:
     runs-on: ubuntu-22.04
     needs: build
