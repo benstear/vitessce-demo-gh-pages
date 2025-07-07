@@ -32,6 +32,7 @@ jobs:
       - name: Upload data
         uses: actions/upload-pages-artifact@v3
         with:
+          name: zarr_store
           path: pbmc3k_final.adata.zarr
 
       - name: show files
