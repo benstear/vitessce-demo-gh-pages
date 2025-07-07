@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-
-
 permissions:
   contents: read
   pages: write
@@ -29,12 +27,16 @@ jobs:
         with:
           path: dist
       - name: show files
-        run: pwd; ls; echo '---------'; printenv
+        run: pwd; ls; echo '---------'; 
+        
+      - name: Upload data
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: pbmc3k_final.adata.zarr
 
-      #- name: Upload build artifact 2
-      #  uses: actions/upload-pages-artifact@v3
-      #  with:
-      #    path: dist
+      - name: show files
+        run: ls;
+        
   deploy:
     runs-on: ubuntu-22.04
     needs: build
