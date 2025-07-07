@@ -1,4 +1,4 @@
-{'version': '1.0.17',
+export const myViewConfig = {'version': '1.0.17',
  'name': 'PBMC Reference',
  'description': '',
  'datasets': [{'uid': 'A',
